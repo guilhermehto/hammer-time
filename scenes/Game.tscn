@@ -72,10 +72,10 @@ _sections_unfolded = [ "Light", "Omni" ]
 
 [node name="Plank" parent="." index="4" instance=ExtResource( 2 )]
 
-transform = Transform( 5, 0, 0, 0, 1, 0, 0, 0, 0.4, 0, 0, 5 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5 )
 
 [node name="Plank2" parent="." index="5" instance=ExtResource( 2 )]
 
-transform = Transform( 5, 0, 0, 0, 1, 0, 0, 0, 0.4, -50, 0, 5 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -50, 0, 5 )
 
 
