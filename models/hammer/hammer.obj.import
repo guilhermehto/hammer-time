@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/hammer.obj-f631c0daa1536c43b9295b6d99270bf5.mesh"
+
+[deps]
+
+files=[ "res://.import/hammer.obj-f631c0daa1536c43b9295b6d99270bf5.mesh" ]
+
+source_file="res://models/hammer/hammer.obj"
+source_md5="afd79a7a7e84778e509a778a4d47a884"
+
+dest_files=[ "res://.import/hammer.obj-f631c0daa1536c43b9295b6d99270bf5.mesh", "res://.import/hammer.obj-f631c0daa1536c43b9295b6d99270bf5.mesh" ]
+dest_md5="d1e5ce562b493196fdd752d9030e60cd"
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

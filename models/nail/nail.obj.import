@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/nail.obj-7fd3d753712df66d368a0031b4b335c4.mesh"
+
+[deps]
+
+files=[ "res://.import/nail.obj-7fd3d753712df66d368a0031b4b335c4.mesh" ]
+
+source_file="res://models/nail/nail.obj"
+source_md5="3d372bef9b4db8973bd40bd88c9f6f52"
+
+dest_files=[ "res://.import/nail.obj-7fd3d753712df66d368a0031b4b335c4.mesh", "res://.import/nail.obj-7fd3d753712df66d368a0031b4b335c4.mesh" ]
+dest_md5="1ae83f5cd3c116a9bca311c34167512c"
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
