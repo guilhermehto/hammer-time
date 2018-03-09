@@ -155,4 +155,10 @@ attenuation_filter_cutoff_hz = 5000.0
 attenuation_filter_db = -24.0
 doppler_tracking = 0
 
+[node name="VisibilityNotifier" type="VisibilityNotifier" parent="." index="4"]
+
+aabb = AABB( -1, -1, -1, 2, 2, 2 )
+
+[connection signal="camera_exited" from="VisibilityNotifier" to="." method="_on_VisibilityNotifier_camera_exited"]
+
 

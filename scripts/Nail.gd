@@ -17,3 +17,8 @@ func _on_area_entered(area):
 		animation.play("hit") 
 
 
+
+
+func _on_VisibilityNotifier_camera_exited(camera):
+	if !already_hit:
+		$"/root/Game".end_game()

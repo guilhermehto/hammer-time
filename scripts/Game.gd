@@ -19,3 +19,6 @@ func _on_Hammer_nail_hit():
 
 func _on_Hammer_game_end():
 	$"/root/LevelManager".load_end_game(score)
+
+func end_game():
+	$"/root/LevelManager".load_end_game(score)
