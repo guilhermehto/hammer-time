@@ -22,6 +22,7 @@ func _on_area_entered(area):
 			emit_signal("game_end")
 			return
 		is_nail_hit = true
+		area.already_hit = true
 		emit_signal("nail_hit")
 	
 

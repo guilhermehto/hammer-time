@@ -12,6 +12,5 @@ func _ready():
 func _on_area_entered(area):
 	if area.name == "Hammer" and !already_hit:
 		animation.play("hit") 
-		already_hit = true
 
 
