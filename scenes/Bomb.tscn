@@ -209,7 +209,7 @@ radial_segments = 64
 rings = 32
 is_hemisphere = false
 
-[node name="Bomb" type="Area" index="0" groups=[
+[node name="Bomb" type="Area" groups=[
 "Bombs",
 ]]
 
