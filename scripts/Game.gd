@@ -15,3 +15,7 @@ func _ready():
 func _on_Hammer_nail_hit():
 	score += 1
 	score_text.text = str(score)
+
+
+func _on_Hammer_game_end():
+	$"/root/LevelManager".load_end_game(score)

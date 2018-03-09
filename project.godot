@@ -14,6 +14,10 @@ config/name="Hammer Time"
 run/main_scene="res://scenes/Game.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+LevelManager="*res://scripts/LevelManager.gd"
+
 [display]
 
 window/size/width=1280
@@ -25,4 +29,5 @@ window/stretch/aspect="keep"
 
 [rendering]
 
+environment/default_clear_color=Color( 0.121194, 0.269531, 0.120026, 1 )
 environment/default_environment="res://default_env.tres"

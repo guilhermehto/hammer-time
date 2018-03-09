@@ -5,7 +5,7 @@
 [ext_resource path="res://scenes/Plank.tscn" type="PackedScene" id=3]
 [ext_resource path="res://fonts/krona_one_64.tres" type="DynamicFont" id=4]
 
-[node name="Game" type="Node"]
+[node name="Game" type="Node" index="0"]
 
 script = ExtResource( 1 )
 
@@ -113,6 +113,8 @@ scroll_following = false
 selection_enabled = false
 override_selected_font_color = false
 _sections_unfolded = [ "custom_constants", "custom_fonts" ]
+
+[connection signal="game_end" from="Hammer" to="." method="_on_Hammer_game_end"]
 
 [connection signal="nail_hit" from="Hammer" to="." method="_on_Hammer_nail_hit"]
 
