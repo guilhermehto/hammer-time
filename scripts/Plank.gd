@@ -5,14 +5,15 @@ const NAIL_PATH = "res://scenes/Nail.tscn"
 const MIN_SPAWN_INTERVAL = 5
 const MAX_SPAWN_INTERVAL = 7.5
 
+export var is_first = false
 export var speed = 5
 
 var last_spawn_position
 var nails_and_bombs = []
 
 func _ready():
-	spawn_nails_and_bombs()
-	pass
+	if !is_first:
+		spawn_nails_and_bombs()
 
 func _process(delta):
 	translation.x += speed * delta
@@ -25,6 +26,7 @@ func _process(delta):
 func spawn_nails_and_bombs():
 	for item in nails_and_bombs:
 		item.queue_free()
+	 nails_and_bombs = []
 	
 	randomize()
 	last_spawn_position = 0
